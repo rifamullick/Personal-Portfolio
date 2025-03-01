@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css ">
+    <script src="https://kit.fontawesome.com/ca34efbc74.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logo1.png" width="130" height="80" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#portfolio">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Student</p>
+            <h1>Hey, I am<span> Rifa</span><br>Akhter Mullick</h1>
+        </div>
+    </div>
+</div>
+<!-- ------------------------------------------about---------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me.jpg" width="290" height="375">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a passionate and dedicated IT graduate with a strong foundation in programming, web development, and problem-solving. With hands-on experience in building projects and a keen interest in technology, I continuously strive to enhance my skills and stay updated with industry trends. I have worked on various personal and academic projects that showcase my ability to develop user-friendly and efficient solutions. I am eager to explore opportunities that allow me to apply my knowledge while learning and growing in the tech industry.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Technical Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Education</p>
+                    <p class="tab-links" onclick="opentab('Education')">Achievement/ Hobbies</p>
+                </div>
+                
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Languages</span><br>C, Java, Python, HTML, CSS, JavaScript, SQL</li>
+                        <li><span>Frameworks</span><br>ExpressJs, ReactJs, NodeJs</li>
+                        <li><span>Coursework</span><br>DBMS, OOPs, Cloud Computing</li>
+                        <li><span>Database</span><br>Oracle, MongoDB</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Maulana AbulKalam Azad University of Technology</span><br>B.Tech in Information Technology (2021-2025)</li>
+                        <li><span>Indian School Certificate (ISC)</span><br>St. Teresa's Secondary School (2020)</li>
+                        <li><span>India Certificate of Secondary Education (ICSE)</span><br>St. Teresa's Secondary School (2018)</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022</span><br>Secured first place in college-level badminton tournament</li>
+                        <li><span>2023</span><br>Volunteer in College Tech Fest</li>
+                        <li><span></span><br>Reading Books</li>
+                        <li><span></span><br>Swimming</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------------services------------------------------ -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Personal Portfolio</h2>
+                <h3>HTML, CSS, JavaScript</h3>
+                <p>Developed a user-friendly personal portfolio to showcase skills, experience, education, and projects. Implemented responsive design and interactive features to ensure accessibility across devices</p>
+                
+                <a href="#">learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>E-Commerce Site</h2>
+                <h3>HTML, CSS, JavaScript, PHP</h3>
+                <p>Built a responsive e-commerce platform with seamless navigation and interactive user interface. Integrated product listings and user authentication, to enhance the shopping experience.</p>
+                <a href="#">learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Threat Call Detection (Ongoing Project)</h2>
+                <h3>Python, Tensorflow, NLP</h3>
+                <p>Developed an NLP-based machine learning system to detect threatening language in Bengali speech. The project
+                    involved dataset creation, text preprocessing, feature extraction using TF-IDF, and training classifiers such as Naive
+                    Bayes, Decision Tree, and LSTM for contextual analysis.</p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- --------------------------------portfolio------------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/certificatesql.jpg">
+                <div class="layer">
+                    <h2>HackerRank SQL Basic</h2>
+                    <p></p>
+                    <a href="https://www.hackerrank.com/certificates/90b07e4e29f5" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/certificatejava.jpg">
+                <div class="layer">
+                    <h2>Udemy Java from Zero to First Job</h2>
+                    <p></p>
+                    <a href="https://www.udemy.com/certificate/UC-2799955a-041e-449a-86a7-afce01bd43d4/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/certificatepython.jpg">
+                <div class="layer">
+                    <h2>HackerRank Python Basic</h2>
+                    <p></p>
+                    <a href="https://www.hackerrank.com/certificates/3642e4d57338" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -----------------------------------------contact-------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rifaakhtermullick@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 9748488739</p>
+                <div class="social-icons">
+                    
+                    <a href="https://github.com/rifamullick"><i class="fa-brands fa-github"></i></a>
+                    
+                    <a href="https://www.linkedin.com/in/rifa-akhter-mullick-464931249"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/RifaAkhterMullick_CV(EY).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="E-mail" placeholder="Your E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Rifa. Made with Love. <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script src="script.js">
+    
+</script>
+
+</body>
+</html>
