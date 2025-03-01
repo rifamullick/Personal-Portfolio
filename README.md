@@ -1,0 +1,2 @@
+# Personal-Portfolio
+ Personal Portfolio Website  This is a responsive and interactive personal portfolio website built using HTML, CSS, and JavaScript. It showcases an introduction, skills, experience, education, and projects in a visually appealing manner. The website features a typewriter effect for the header text, smooth scrolling, and modern UI elements to enhance user experience.  Technologies Used:  HTML, CSS, JavaScript Font Awesome for icons Responsive design for mobile and desktop views
